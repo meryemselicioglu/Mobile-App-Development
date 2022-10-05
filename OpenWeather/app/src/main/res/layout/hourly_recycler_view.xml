@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="80dp"
+    android:layout_height="wrap_content"
+    android:background="#00901BE3">
+
+    <ImageView
+        android:id="@+id/hourlyWeatherIcon"
+        android:layout_width="50dp"
+        android:layout_height="45dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="@+id/time"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/time"
+        app:layout_constraintTop_toBottomOf="@+id/time"
+        app:srcCompat="@drawable/ic_launcher_foreground" />
+
+    <TextView
+        android:id="@+id/day"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Today"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7:00 PM"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/day"
+        app:layout_constraintStart_toStartOf="@+id/day"
+        app:layout_constraintTop_toBottomOf="@+id/day" />
+
+    <TextView
+        android:id="@+id/hourlyTemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="68 C"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/hourlyWeatherIcon"
+        app:layout_constraintHorizontal_bias="0.38"
+        app:layout_constraintStart_toStartOf="@+id/hourlyWeatherIcon"
+        app:layout_constraintTop_toBottomOf="@+id/hourlyWeatherIcon" />
+
+    <TextView
+        android:id="@+id/hourlyDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Broken Cloud"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/hourlyTemp"
+        app:layout_constraintHorizontal_bias="0.527"
+        app:layout_constraintStart_toStartOf="@+id/hourlyTemp"
+        app:layout_constraintTop_toBottomOf="@+id/hourlyTemp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

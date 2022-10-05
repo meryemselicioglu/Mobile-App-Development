@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/unit"
+        android:icon="@drawable/units_f"
+        android:title="units"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/opt_daily_forecast"
+        android:icon="@drawable/daily"
+        android:title="@string/opt_daily_forecast"
+        android:visible="true"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/opt_location"
+        android:icon="@drawable/location"
+        android:title="location"
+        app:showAsAction="ifRoom" />
+</menu>

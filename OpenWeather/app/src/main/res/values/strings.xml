@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Open Weather</string>
+    <string name="opt_daily_forecast">Daily Forecast</string>
+    <string name="celsius">\u2103</string>
+    <string name="fahrenheit">\u2109</string>
+    <string name="no_internet">No Internet Connection</string>
+    <string name="no_data">No Data for Location</string>
+</resources>

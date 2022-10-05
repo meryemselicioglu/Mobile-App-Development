@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Civil Advocacy</string>
+
+    <string name="api_link"><u>Google Civic Information API</u></string>
+    <string name="data_provided">Data provided by</string>
+    <string name="author">© 2022, Meryem Selicioglu</string>
+    <string name="version_num">Version 1.0</string>
+
+    <string name="file_name">Official.json</string>
+    <string name="encoding">UTF-8</string>
+    <string name="no_file">No JSON Official File Present</string>
+    <string name="unspec_loc">Unspecified Location</string>
+    <string name="no_data">No Data for Location</string>
+</resources>

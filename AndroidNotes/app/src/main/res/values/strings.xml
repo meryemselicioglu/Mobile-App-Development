@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My Notes</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="text">Text</string>
+    <string name="notes">Note</string>
+    <string name="copyrights">©2022, Meryem Selicioglu</string>
+    <string name="info">About Info</string>
+    <string name="add">Add Note</string>
+    <string name="about_version">Version 1.0</string>
+    <string name="title">Title</string>
+    <string name="date_time">Date Time</string>
+    <string name="file_name">Notes.json</string>
+</resources>
